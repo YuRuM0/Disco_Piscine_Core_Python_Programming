@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-print("Enter a number")
-input = int(input())
+
+input = int(input("Enter a number\n"))
 i = 0
 while (i < 10):
     res = i * input
