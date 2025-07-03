@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
 class scope:
-    def add_one(param):
+    def add_one(self, param):
         param += 1
-    
-    var = 10
-    print(var)
-    add_one(var) # or var = add_one(var)?
-    print(var)
+        return (param)
+
+s = scope()
+var = 5
+print(var)
+s.add_one(var)
+print(var)
 
 
